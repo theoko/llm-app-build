@@ -1,0 +1,20 @@
+{
+ "query": "How do I",
+ "top3": [
+  {
+   "chunk": "deployment/server-workers.md#Containers and Docker",
+   "score": 11.8
+  },
+  {
+   "chunk": "deployment/docker.md#Build a Docker Image for FastAPI",
+   "score": 10.4
+  },
+  {
+   "chunk": "advanced/generate-clients.md#Hey API",
+   "score": 9.6
+  }
+ ],
+ "chunks": 1992,
+ "chunks_with_include_tag": 409,
+ "md_files": 159
+}

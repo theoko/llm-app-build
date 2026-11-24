@@ -1,0 +1,2 @@
+{"_note": "Hand-graded by reading each answer in runs/ep01.jsonl against the docs page. full = answers the question with working code; partial = right idea, no usable code or only part of it; none = no answer although the docs have one; correct-none = says it doesn't know and the docs have no answer.",
+ "grades": ["full", "full", "partial", "none", "none", "partial", "partial", "correct-none"]}

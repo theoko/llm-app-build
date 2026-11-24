@@ -1,0 +1,8 @@
+{"question": "How do I make a query parameter optional?", "expect": "tutorial/query-params.md"}
+{"question": "How do I return a 404 when an item doesn't exist?", "expect": "tutorial/handling-errors.md"}
+{"question": "How do I run some code once when the app starts up?", "expect": "advanced/events.md"}
+{"question": "How do I let my React frontend on another port call my API?", "expect": "tutorial/cors.md"}
+{"question": "How do I accept a file upload?", "expect": "tutorial/request-files.md"}
+{"question": "How do I send an email after returning the response, without making the user wait?", "expect": "tutorial/background-tasks.md"}
+{"question": "How do I make an endpoint require a login?", "expect": "tutorial/security/"}
+{"question": "How do I use MongoDB transactions with FastAPI?", "expect": null}

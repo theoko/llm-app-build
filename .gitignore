@@ -1,0 +1,4 @@
+.venv/
+corpus-src/
+__pycache__/
+.pytest_cache/
