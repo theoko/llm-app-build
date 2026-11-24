@@ -1,0 +1,39 @@
+{"question": "How do I make a query parameter optional?", "expect": "tutorial/query-params.md", "split": "dev"}
+{"question": "How do I return a 404 when an item doesn't exist?", "expect": "tutorial/handling-errors.md", "split": "dev"}
+{"question": "How do I run some code once when the app starts up?", "expect": "advanced/events.md", "split": "dev"}
+{"question": "How do I let my React frontend on another port call my API?", "expect": "tutorial/cors.md", "split": "dev"}
+{"question": "How do I accept a file upload?", "expect": "tutorial/request-files.md", "split": "dev"}
+{"question": "How do I send an email after returning the response, without making the user wait?", "expect": "tutorial/background-tasks.md", "split": "dev"}
+{"question": "How do I make an endpoint require a login?", "expect": "tutorial/security/", "split": "dev"}
+{"question": "How do I use MongoDB transactions with FastAPI?", "expect": null, "split": "dev"}
+{"question": "How do I stop people sending a search term longer than 50 characters?", "expect": "tutorial/query-params-str-validations.md", "split": "dev"}
+{"question": "How do I make sure an ID in the URL is a positive number?", "expect": "tutorial/path-params-numeric-validations.md", "split": "dev"}
+{"question": "My JSON body has a list of objects inside an object. How do I describe that?", "expect": "tutorial/body-nested-models.md", "split": "holdout"}
+{"question": "How do I hide the password field when I send a user back from an endpoint?", "expect": "tutorial/response-model.md", "split": "dev"}
+{"question": "How do I make a POST endpoint answer with 201 instead of 200?", "expect": "tutorial/response-status-code.md", "split": "holdout"}
+{"question": "How do I deploy FastAPI to AWS Lambda?", "expect": null, "split": "dev"}
+{"question": "How do I read the User-Agent the browser sent?", "expect": "tutorial/header-params.md", "split": "dev"}
+{"question": "How do I set a cookie on the reply?", "expect": "advanced/response-cookies.md", "split": "dev"}
+{"question": "How do I open a database connection per request and make sure it gets closed?", "expect": "tutorial/dependencies/dependencies-with-yield.md", "split": "holdout"}
+{"question": "My main.py is huge. How do I split routes across several files?", "expect": "tutorial/bigger-applications.md", "split": "dev"}
+{"question": "How do I serve images and CSS from a folder?", "expect": "tutorial/static-files.md", "split": "dev"}
+{"question": "How do I rate-limit requests per IP address?", "expect": null, "split": "holdout"}
+{"question": "How do I write a test that calls my endpoints without starting a server?", "expect": "tutorial/testing.md", "split": "dev"}
+{"question": "How do I add a header with the processing time to every response?", "expect": "tutorial/middleware.md", "split": "dev"}
+{"question": "How do I issue login tokens that expire after 30 minutes?", "expect": "tutorial/security/oauth2-jwt.md", "split": "holdout"}
+{"question": "Where should I keep my database URL and secret key instead of hardcoding them?", "expect": "advanced/settings.md", "split": "dev"}
+{"question": "How do I push live updates to the browser over a socket?", "expect": "advanced/websockets.md", "split": "holdout"}
+{"question": "How do I consume messages from a Kafka topic?", "expect": null, "split": "dev"}
+{"question": "How do I read fields from an HTML form post?", "expect": "tutorial/request-forms.md", "split": "dev"}
+{"question": "How do I return plain HTML instead of JSON?", "expect": "advanced/custom-response.md", "split": "dev"}
+{"question": "In tests, how do I swap the real database dependency for a fake one?", "expect": "advanced/testing-dependencies.md", "split": "holdout"}
+{"question": "How do I accept a UUID or a datetime as a parameter?", "expect": "tutorial/extra-data-types.md", "split": "dev"}
+{"question": "How do I let a client change only some fields of an item with PATCH?", "expect": "tutorial/body-updates.md", "split": "dev"}
+{"question": "How do I send push notifications to iPhones?", "expect": null, "split": "holdout"}
+{"question": "Can I mount my old Flask app inside FastAPI?", "expect": "advanced/wsgi.md", "split": "dev"}
+{"question": "How do I put my API in a Docker image?", "expect": "deployment/docker.md", "split": "dev"}
+{"question": "How do I run several worker processes in production?", "expect": "deployment/server-workers.md", "split": "holdout"}
+{"question": "My app sits behind nginx under /api and the docs page breaks. How do I fix it?", "expect": "advanced/behind-a-proxy.md", "split": "dev"}
+{"question": "How do I show an example request body on the /docs page?", "expect": "tutorial/schema-extra-example.md", "split": "dev"}
+{"question": "How do I make every route check an API key header without adding it to each one?", "expect": "tutorial/dependencies/global-dependencies.md", "split": "holdout"}
+{"question": "How do I save items to a SQL database?", "expect": "tutorial/sql-databases.md", "split": "dev"}

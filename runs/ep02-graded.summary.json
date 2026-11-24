@@ -1,0 +1,51 @@
+{
+ "dev": {
+  "questions": 29,
+  "answerable": 26,
+  "hit_at_1": 9,
+  "hit_at_5": 16,
+  "mrr": 0.442,
+  "grades": {
+   "full": 6,
+   "partial": 8,
+   "wrong": 1,
+   "none": 11,
+   "correct-none": 3,
+   "unsupported": 0,
+   "unparsed": 0
+  }
+ },
+ "holdout": {
+  "questions": 10,
+  "answerable": 8,
+  "hit_at_1": 0,
+  "hit_at_5": 2,
+  "mrr": 0.104,
+  "grades": {
+   "full": 2,
+   "partial": 1,
+   "wrong": 2,
+   "none": 3,
+   "correct-none": 2,
+   "unsupported": 0,
+   "unparsed": 0
+  }
+ },
+ "all": {
+  "questions": 39,
+  "answerable": 34,
+  "hit_at_1": 9,
+  "hit_at_5": 18,
+  "mrr": 0.363,
+  "grades": {
+   "full": 8,
+   "partial": 9,
+   "wrong": 3,
+   "none": 14,
+   "correct-none": 5,
+   "unsupported": 0,
+   "unparsed": 0
+  }
+ },
+ "judge_cost_usd": 0.3019
+}

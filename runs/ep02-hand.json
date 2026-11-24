@@ -1,0 +1,23 @@
+{
+ "_note": "Blind hand grades by Claude, written 2026-11-24 before the judge ran on runs/ep02.jsonl: every second judge-eligible answer among questions 9-39. Same rubric as ep01-grades.json.",
+ "grades": {
+  "How do I stop people sending a search term longer than 50 characters?": "full",
+  "How do I make a POST endpoint answer with 201 instead of 200?": "full",
+  "How do I serve images and CSS from a folder?": "partial",
+  "How do I add a header with the processing time to every response?": "partial",
+  "How do I read fields from an HTML form post?": "full",
+  "How do I accept a UUID or a datetime as a parameter?": "full",
+  "Can I mount my old Flask app inside FastAPI?": "partial",
+  "How do I run several worker processes in production?": "full"
+ },
+ "why": {
+  "How do I stop people sending a search term longer than 50 characters?": "max_length=50 with working code",
+  "How do I make a POST endpoint answer with 201 instead of 200?": "JSONResponse(status_code=201) works, though the docs teach status_code=201 on the decorator",
+  "How do I serve images and CSS from a folder?": "imports StaticFiles but says it cannot show how to mount the folder",
+  "How do I add a header with the processing time to every response?": "middleware and X-Process-Time named, no code",
+  "How do I read fields from an HTML form post?": "Form model code works",
+  "How do I accept a UUID or a datetime as a parameter?": "UUID and datetime annotations shown",
+  "Can I mount my old Flask app inside FastAPI?": "WSGIMiddleware named, no code",
+  "How do I run several worker processes in production?": "--workers with a working command"
+ }
+}

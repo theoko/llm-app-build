@@ -1,0 +1,41 @@
+ANTHROPIC_API_KEY is set and takes precedence over the SDK's profile / federation auto-discovery; unset ANTHROPIC_API_KEY to use the auto-discovered credential.
+hit  | How do I make a query parameter optional?
+hit  | How do I return a 404 when an item doesn't exist?
+hit  | How do I run some code once when the app starts up?
+miss | How do I let my React frontend on another port call my API?
+hit  | How do I accept a file upload?
+hit  | How do I send an email after returning the response, without making the user wait?
+hit  | How do I make an endpoint require a login?
+none | How do I use MongoDB transactions with FastAPI?
+hit  | How do I stop people sending a search term longer than 50 characters?
+miss | How do I make sure an ID in the URL is a positive number?
+hit  | My JSON body has a list of objects inside an object. How do I describe that?
+miss | How do I hide the password field when I send a user back from an endpoint?
+miss | How do I make a POST endpoint answer with 201 instead of 200?
+none | How do I deploy FastAPI to AWS Lambda?
+miss | How do I read the User-Agent the browser sent?
+miss | How do I set a cookie on the reply?
+miss | How do I open a database connection per request and make sure it gets closed?
+miss | My main.py is huge. How do I split routes across several files?
+miss | How do I serve images and CSS from a folder?
+none | How do I rate-limit requests per IP address?
+hit  | How do I write a test that calls my endpoints without starting a server?
+hit  | How do I add a header with the processing time to every response?
+miss | How do I issue login tokens that expire after 30 minutes?
+miss | Where should I keep my database URL and secret key instead of hardcoding them?
+miss | How do I push live updates to the browser over a socket?
+none | How do I consume messages from a Kafka topic?
+hit  | How do I read fields from an HTML form post?
+hit  | How do I return plain HTML instead of JSON?
+miss | In tests, how do I swap the real database dependency for a fake one?
+hit  | How do I accept a UUID or a datetime as a parameter?
+miss | How do I let a client change only some fields of an item with PATCH?
+none | How do I send push notifications to iPhones?
+hit  | Can I mount my old Flask app inside FastAPI?
+hit  | How do I put my API in a Docker image?
+hit  | How do I run several worker processes in production?
+hit  | My app sits behind nginx under /api and the docs page breaks. How do I fix it?
+miss | How do I show an example request body on the /docs page?
+miss | How do I make every route check an API key header without adding it to each one?
+hit  | How do I save items to a SQL database?
+1992 chunks indexed
